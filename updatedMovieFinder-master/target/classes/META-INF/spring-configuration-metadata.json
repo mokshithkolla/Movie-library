@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "pl.manes",
+      "type": "pl.manes.configuration.MovieDataFinderConfigurationProperties",
+      "sourceType": "pl.manes.configuration.MovieDataFinderConfigurationProperties"
+    },
+    {
+      "name": "pl.manes.movie-base",
+      "type": "pl.manes.configuration.MovieDataFinderConfigurationProperties$MovieBase",
+      "sourceType": "pl.manes.configuration.MovieDataFinderConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pl.manes.movie-base.api-key",
+      "type": "java.lang.String",
+      "sourceType": "pl.manes.configuration.MovieDataFinderConfigurationProperties$MovieBase"
+    },
+    {
+      "name": "pl.manes.movie-base.url",
+      "type": "java.lang.String",
+      "sourceType": "pl.manes.configuration.MovieDataFinderConfigurationProperties$MovieBase"
+    }
+  ],
+  "hints": []
+}
