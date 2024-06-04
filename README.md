@@ -4,14 +4,14 @@ Movie Library is a Spring Boot application that allows users to search for movie
 
 Features
 Search Movies: Users can search for movies by title.
-Favorite Movies: Users can add movies to their list of favorites.
-View Favorites: Users can view and manage their list of favorite movies.
-Responsive Design: Uses Bootstrap and MDBootstrap for a modern, responsive design.
+Favorite Movies: Users can add movies to their list of Public movie list.
+View Favorites: Users can view and manage their list of Public movies.
+Responsive Design: Uses Thymeleaf for a modern, responsive design.
 Technologies Used
 Backend: Spring Boot, Spring Data JPA
-Frontend: HTML, CSS, Bootstrap, MDBootstrap
-Database: H2 (for simplicity, can be switched to any other database)
-External APIs: Integrates with a movie data provider API
+Frontend: HTML, CSS, Bootstrap
+Database: Postgres 
+External APIs: Integrates with a movie data provider OMDB API
 Getting Started
 Prerequisites
 Java 8 or higher
